@@ -19,7 +19,7 @@ app.get('/', function (req, res){
             res.send(welcome);
 	});
 
-app.listen(3000, function () {
+app.listen(8080, function () {
   console.log('Server running on port 3000!');
   console.log('Current gid: ' + process.pid);
 });
