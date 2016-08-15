@@ -19,8 +19,8 @@ app.get('/', function (req, res){
             res.send(welcome);
 	});
 
-app.listen(8080, function () {
-  console.log('Server running on port 3000!');
+app.listen(8080,  '160.62.1.144',  function () {
+  console.log('Server running on port 8080!');
   console.log('Current gid: ' + process.pid);
 });
 
