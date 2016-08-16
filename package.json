@@ -7,7 +7,7 @@
     "express": "^4.14.0",
     "multipart": "^0.1.5",
     "mysql": "^2.11.1",
-    "siege": "^0.2.0"
+    "request": "^2.74.0"
   },
   "devDependencies": {},
   "scripts": {
