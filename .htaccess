@@ -11,7 +11,8 @@ RewriteRule . /index.php [L]
 # END WordPress
 
 RewriteEngine On
-RewriteRule ^$ http://127.0.0.1:61000/ [P,L]
+
+RewriteRule ^/myapp$ http://127.0.0.1:61000/ [P,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ http://127.0.0.1:61000/$1 [P,L]
+RewriteRule ^/myapp/(.*)$ http://127.0.0.1:61000/$1 [P,L]
