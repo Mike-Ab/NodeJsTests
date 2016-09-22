@@ -11,16 +11,17 @@ myArray["Forum"] = "Forum board";
 
 
 arrayOfKeys.forEach(function (value, key){
-	console.log(key);
-	console.log(value);
+	console.log(key, '=>', value);
 	});
 
 for (var k in arrayOfKeys) {
+	// console.log(k);
     myArray[arrayOfKeys[k]] = arrayOfKeys[k]+k;
 }
 
 for (var key in myArray) {
     var value = myArray[key];
+	console.log(key, '=>', value);
   //  console.log(value);
   //  console.log(key);
 }
